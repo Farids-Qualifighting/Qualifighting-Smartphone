@@ -1,9 +1,13 @@
 import 'package:dio/dio.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:riverpod_annotation/riverpod_annotation.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-final sharedPrefProvider = Provider<SharedPreferences>(
-  (_) => throw UnimplementedError('SharedPreferenceProvider not implemented'),
-);
+part 'providers.g.dart';
 
-final dioProvider = Provider<Dio>((_) => Dio());
+@Riverpod(keepAlive: true)
+SharedPreferences sharedPreferences(SharedPreferencesRef ref) =>
+    throw UnimplementedError('SharedPreferenceProvider not implemented');
+
+@Riverpod(keepAlive: true)
+Dio dio(DioRef ref) => Dio();
