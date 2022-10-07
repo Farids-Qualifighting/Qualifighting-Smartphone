@@ -1,4 +1,4 @@
-package ersetz.mich.qualifighting_mobile
+package de.qualifighting-farids.app
 
 import io.flutter.embedding.android.FlutterActivity
 

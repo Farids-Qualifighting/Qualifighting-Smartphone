@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="ersetz.mich.qualifighting_mobile">
+    package="de.qualifighting-farids.app">
    <application
         android:label="qualifighting_mobile"
         android:name="${applicationName}"
