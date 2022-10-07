@@ -1,3 +1,4 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:formz/formz.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:qualifighting_mobile/common/model/generic_text.dart';
@@ -28,7 +29,14 @@ class Login extends _$Login with FormzMixin {
     state = state.copyWith(status: Formz.validate(inputs));
   }
 
-  FutureOr<void> submit() {}
+  FutureOr<void> submit() {
+    if (state.status.isValid) {
+      FirebaseAuth.instance.signInWithEmailAndPassword(
+        email: state.email.value,
+        password: state.password.value,
+      );
+    }
+  }
 
   @override
   List<FormzInput> get inputs => [state.email, state.password];

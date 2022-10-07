@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_crashlytics/firebase_crashlytics.dart';
 import 'package:flutter/material.dart';
@@ -42,9 +43,14 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final currentUser = FirebaseAuth.instance.currentUser;
     return Consumer(
       builder: (context, ref, child) => MaterialApp.router(
-        routerDelegate: _appRouter.delegate(),
+        routerDelegate: _appRouter.delegate(
+          initialRoutes: [
+            currentUser == null ? const LoginRoute() : const HomeRoute()
+          ],
+        ),
         routeInformationParser: _appRouter.defaultRouteParser(),
         themeMode: ref.watch(getThemeProvider),
         darkTheme: ThemeData.dark(useMaterial3: true),
