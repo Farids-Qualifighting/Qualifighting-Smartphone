@@ -6,5 +6,7 @@ final materialTheme = ThemeData(
 );
 
 final materialThemeDark = ThemeData(
+  scaffoldBackgroundColor: ThemeData.dark().scaffoldBackgroundColor,
+  appBarTheme: ThemeData.dark().appBarTheme,
   useMaterial3: true,
 );
