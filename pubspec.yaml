@@ -20,7 +20,7 @@ dependencies:
   hooks_riverpod: ^2.0.1
   json_serializable: ^6.4.1
   retrofit: ^3.0.1+1
-  riverpod_annotation: ^1.0.1
+  riverpod_annotation: ^1.0.4
   shared_preferences: ^2.0.15
 
 
