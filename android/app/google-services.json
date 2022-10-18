@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "228837171814",
+    "project_id": "farids-qualifighting",
+    "storage_bucket": "farids-qualifighting.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:228837171814:android:4e4d1523d17f976db583a7",
+        "android_client_info": {
+          "package_name": "de.qualifighting.farids.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "228837171814-5p5i1v4kfg9pkulsqj31lipp0nmrlqhu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqTPFts74c0IWUm3QV3PMrksiWzNisqCs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "228837171814-5p5i1v4kfg9pkulsqj31lipp0nmrlqhu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "228837171814-3pt4j0md98tfd68n04f3d9c97kqbb4oc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "de.qualifighting-farids.app"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:228837171814:android:82c3755eeba14b15b583a7",
+        "android_client_info": {
+          "package_name": "ersetz.mich.qualifighting_mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "228837171814-5p5i1v4kfg9pkulsqj31lipp0nmrlqhu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqTPFts74c0IWUm3QV3PMrksiWzNisqCs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "228837171814-5p5i1v4kfg9pkulsqj31lipp0nmrlqhu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "228837171814-3pt4j0md98tfd68n04f3d9c97kqbb4oc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "de.qualifighting-farids.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
