@@ -51,7 +51,7 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyCqTPFts74c0IWUm3QV3PMrksiWzNisqCs',
-    appId: '1:228837171814:android:82c3755eeba14b15b583a7',
+    appId: '1:228837171814:android:4e4d1523d17f976db583a7',
     messagingSenderId: '228837171814',
     projectId: 'farids-qualifighting',
     storageBucket: 'farids-qualifighting.appspot.com',
@@ -59,11 +59,11 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyC50IszGb7xceLLTJVI5S-jBYvihWUDFoo',
-    appId: '1:228837171814:ios:df7ebeb02846ebbdb583a7',
+    appId: '1:228837171814:ios:01b4116e817f5077b583a7',
     messagingSenderId: '228837171814',
     projectId: 'farids-qualifighting',
     storageBucket: 'farids-qualifighting.appspot.com',
-    iosClientId: '228837171814-hcat70tv224ldpdcch56emo9cutgfg07.apps.googleusercontent.com',
-    iosBundleId: 'ersetz.mich.qualifightingMobile',
+    iosClientId: '228837171814-el2o54m5an6evslm07a50scufvina339.apps.googleusercontent.com',
+    iosBundleId: 'de.qualifighting.farids.app',
   );
 }
