@@ -1,12 +1,17 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:qualifighting_mobile/common/provider/providers.dart';
 import 'package:qualifighting_mobile/common/provider/theme/theme_provider.dart';
+import 'package:qualifighting_mobile/firebase_options.dart';
 import 'package:qualifighting_mobile/home/home_page.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   final sharedPreferences = await SharedPreferences.getInstance();
 
   runApp(
