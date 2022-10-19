@@ -32,7 +32,7 @@ dev_dependencies:
     sdk: flutter
   freezed: ^2.2.0
   json_annotation: ^4.7.0
-  riverpod_generator: ^1.0.1
+  riverpod_generator: ^1.0.4
 
 flutter:
   uses-material-design: true
